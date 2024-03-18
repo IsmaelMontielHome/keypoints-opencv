@@ -18,3 +18,5 @@ cv2.destroyAllWindows()  # Cierra todas las ventanas
 
 # Guardar la imagen
 cv2.imwrite('imagen_con_keypoints_surf.jpg', imgGray_with_keypoints)
+
+#SE UTILIZO AKAZE YA QUE SURF FUE ELIMINIADO EN LA VERSION 4.0 DE OPENCV YA QUE NO SE LE HABIAN IMPLENTADO NUEVAS COSAS
